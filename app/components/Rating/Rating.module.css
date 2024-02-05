@@ -1,0 +1,11 @@
+.star {
+	@apply mr-[5px];
+}
+
+.fill path {
+	@apply fill-primary;
+}
+
+.editable {
+	@apply cursor-pointer;
+}

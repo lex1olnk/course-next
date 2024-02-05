@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+	colors: {
+		"primary": "var(--primary)",
+		"primary-hover": "var(--primary-hover)",
+		"red": "var(--red)",
+		"green": "var(--green)",
+		"green-light": "var(--green-light)",
+		"gray-light": "var(--gray-light",
+	},
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -17,4 +25,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;

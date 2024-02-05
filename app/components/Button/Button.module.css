@@ -1,0 +1,26 @@
+.button {
+	@apply inline-block box-border p-[10px] cursor-pointer text-center border-0 rounded-[5px] text-sm transition-all duration-200;
+}
+
+.primary {
+	@apply text-white bg-primary hover:bg-primary-hover;
+}
+
+.ghost {
+	border: 1px solid var(--gray-light);
+
+	@apply text-black bg-none hover:bg-primary hover:text-white;
+}
+
+.arrow {
+	@apply inline-block ml-[10px]
+}
+
+.down {
+	@apply rotate-90 transition-all duration-200;
+}
+
+.right {
+	@apply transition-all duration-200;
+}
+

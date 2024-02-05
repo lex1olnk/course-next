@@ -1,0 +1,33 @@
+.tag {
+	@apply inline-block box-border mr-[5px] rounded-[20px] px-[10px] py-[5px];
+}
+
+.s {
+	@apply text-xs leading-3;
+}
+
+.m {
+	@apply text-sm leading-4;
+}
+
+.ghost {
+	border: 1px solid var(--gray-light);
+}
+
+.red {
+	@apply text-white bg-red font-bold;
+}
+
+.gray {
+	@apply text-white bg-[#B3C0D9] font-bold;
+}
+
+.green {
+	@apply text-green bg-green-light font-bold;
+}
+
+.primary {
+	border: 1px solid var(--primary);
+
+	@apply text-primary bg-none;
+}
